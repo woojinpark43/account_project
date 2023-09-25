@@ -1,0 +1,17 @@
+### Send POST request with json body
+POST https://localhost:8080/account
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "initialBalance": 10000
+}
+
+### DELETE account
+DELETE https://localhost:8080/account
+Content-Type: application/json
+
+{
+"userId": 2,
+"accountNumber": "1000000002"
+}
